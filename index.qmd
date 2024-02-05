@@ -1,0 +1,54 @@
+---
+title: "Central UP Vegetation and Fire Assessment"
+author: "N. Burns, T.Hinshaw, O. Maynard, S. Pickhard and R.Swaty"
+---
+
+```{r libraries, message=FALSE, warning=FALSE, include=FALSE}
+
+library(foreign)
+library(htmltools)
+library(leaflet)
+library(sf)
+library(terra)
+library(tidyverse)
+library(raster)
+
+
+```
+
+
+```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
+#  read shape
+shp <- st_read("data/spatial/cup_final.shp") %>% 
+st_set_crs("+proj=longlat +datum=WGS84")
+```
+
+```{r locator map, message=FALSE, warning=FALSE, echo=FALSE}
+# can pick other basemaps from https://leaflet-extras.github.io/leaflet-providers/preview/
+
+map <- leaflet() %>%
+  addProviderTiles(providers$Stadia.StamenWatercolor) %>%
+  addPolygons(data = shp,
+              fillOpacity = 0.6,
+              color = "#4a473d",
+              weight = 8)  
+
+map
+
+
+
+```
+
+
+<br>
+
+## Goals 
+
+* blah
+* blah
+* blah
+
+
+
+
+

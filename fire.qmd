@@ -1,0 +1,6 @@
+---
+title: "Wildfire Exposure"
+format: html
+---
+
+![](images/mfri.jpg){width="100%"} <br>

@@ -1,0 +1,164 @@
+---
+title: "Current Vegetation"
+format: html
+---
+
+
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(chorddiag)
+library(htmlwidgets)
+library(igraph)
+library(readr)
+library(tidygraph)
+
+
+```
+
+
+![](images/evt.jpg){width="100%"} 
+
+<br>
+
+## Patterns on the current landscape
+
+* Learn more about these ecosystems at _______
+* Dominated by blah
+
+<br>
+
+```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
+  arrange(desc(REL_PERCENT)) %>%
+  top_n(n = 7, wt = REL_PERCENT)
+
+## note pine-hemlock-hardwood types lumped in input data
+
+# plot
+
+evtChart <-
+  ggplot(data = evtname, aes(x = EVT_NAME, y = REL_PERCENT)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Top Existing Vegetation Types",
+    caption = "Data from landfire.gov",
+    x = "",
+    y = "Percent of landscape") +
+  scale_x_discrete(limits = rev(evtname$EVT_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  coord_flip() +
+  theme_bw(base_size = 14)
+
+
+
+evtChart
+```
+
+<br>
+<br> 
+
+## How we mapped our historical ecosystems
+
+![](images/bps.jpg){width="100%"} <br>
+
+* Blah
+* blah
+
+```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8}
+library(tidyverse)
+library(scales)
+library(stringr)
+
+bps_data <- read.csv("data/bps_aoi_attributes.csv")
+
+bpsname <- bps_data %>%
+  group_by(BPS_NAME) %>%
+  summarize(ACRES = sum(ACRES),
+            REL_PERCENT = sum(REL_PERCENT)) %>%
+  arrange(desc(REL_PERCENT)) %>%
+  top_n(n = 6, wt = REL_PERCENT)
+
+# plot
+bpsChart <- 
+  ggplot(data = bpsname, aes(x = BPS_NAME, y = REL_PERCENT)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Top Biophysical Settings",
+    caption = "Data from landfire.gov",
+    x = "",
+    y = "Percent of landscape") +
+  scale_x_discrete(limits = rev(bpsname$BPS_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  coord_flip() +
+  theme_bw(base_size = 14)
+
+
+bpsChart
+
+```
+
+<br>
+
+## Some notable changes
+
+
+
+
+```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+# read in data
+chord_df <- read_csv("data/bps2evt_chord.csv")
+#view(histFireGVchord)
+
+#convert to matrix
+matrix_df <- as.matrix(as_adjacency_matrix(as_tbl_graph(chord_df),attr = "ACRES"))
+
+#clean up matrix (could be cleaner!)
+matrix_df = subset(matrix_df, select = -c(1:6))
+
+matrix_df <- matrix_df[-c(7:15),]
+
+#make a custom color pallet #eb4034 (redish) #b0af9e(grey)
+
+# ORIGINAL
+groupColors <- c( "#1d4220", # conifer 
+                 "#fc9d03", # grassland
+                 "#56bf5f", # hardwood
+                 "#397d3f", # hardwood-conifer 
+                 "#7db7c7", # riparian 
+                 "#f5e942", # cur ag
+                 "#1d4220", # cur conifer
+                 "#397d3f", # cur hdw-con
+                 "#b0af9e", # developed
+                 "#eb4034", # exotics
+                 "#fc9d03", # grassland
+                 "#56bf5f", # hardwood
+                 "#7db7c7",
+                 "#6e4f1e"# shrubland
+)
+#make chord diagram
+chord <- chorddiag(data = matrix_df,
+                 type = "bipartite",
+                 groupColors = groupColors,
+                 groupnamePadding = 10,
+                 groupPadding = 3,
+                 groupnameFontsize = 12 ,
+                 showTicks = FALSE,
+                 margin = 130,
+                 tooltipGroupConnector = "    &#x25B6;    ",
+                 chordedgeColor = "#363533"
+                 )
+chord 
+
+#save then print to have white background
+htmlwidgets::saveWidget(chord,
+                        "chord.html",
+                        background = "white",
+                        selfcontained = TRUE
+                        )
+```
+
+
+
+<iframe src="chord.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5"></iframe>
+
+<br>
