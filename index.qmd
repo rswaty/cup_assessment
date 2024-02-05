@@ -19,21 +19,29 @@ library(raster)
 
 ```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
 #  read shape
-shp <- st_read("data/spatial/cup_final.shp") %>% 
-st_set_crs("+proj=longlat +datum=WGS84")
+Area <- st_read("data/spatial/cup_final.shp") %>% 
+  st_transform(crs = 5070) %>%
+  st_union() %>%
+  st_sf()
 ```
 
 ```{r locator map, message=FALSE, warning=FALSE, echo=FALSE}
 
 
-map <- leaflet() %>%
-  addTiles() %>%
-  addPolygons(data = shp,
-              fillOpacity = 0.6,
-              color = "#4a473d",
-              weight = 6)  
+library(tmap)
 
-map
+# toggle tmap mode to interactive viewing
+tmap_mode("view")
+
+# create a quick interactive map
+quickmap <- qtm(Area, 
+                borders = "darkgreen", 
+                fill = NULL, 
+                check.and.fix = TRUE, 
+                title = 'Assessment Area',
+                basemaps = 'OpenStreetMap')
+
+quickmap
 
 
 
