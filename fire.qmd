@@ -4,3 +4,13 @@ format: html
 ---
 
 ![](images/mfri.jpg){width="90%"} <br>
+
+
+## Past fire patterns
+
+*
+*
+*
+
+
+## Wildfire exposure risk
