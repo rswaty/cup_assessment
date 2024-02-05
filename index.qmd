@@ -1,51 +1,10 @@
 ---
-title: "Central UP Vegetation and Fire Assessment"
-author: "N. Burns, T.Hinshaw, O. Maynard, S. Pickhard and R.Swaty"
+title: "Ecosystems and fire exposure of the central UP"
+
 ---
 
-```{r libraries, message=FALSE, warning=FALSE, include=FALSE}
 
-library(foreign)
-library(htmltools)
-library(leaflet)
-library(sf)
-library(terra)
-library(tidyverse)
-library(raster)
-
-
-```
-
-
-```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
-#  read shape
-Area <- st_read("data/spatial/cup_final.shp") %>% 
-  st_transform(crs = 5070) %>%
-  st_union() %>%
-  st_sf()
-```
-
-```{r locator map, message=FALSE, warning=FALSE, echo=FALSE}
-
-
-library(tmap)
-
-# toggle tmap mode to interactive viewing
-tmap_mode("view")
-
-# create a quick interactive map
-quickmap <- qtm(Area, 
-                borders = "darkgreen", 
-                fill = NULL, 
-                check.and.fix = TRUE, 
-                title = 'Assessment Area',
-                basemaps = 'OpenStreetMap')
-
-quickmap
-
-
-
-```
+![](images/aoi.jpg){width="95%"} <br>
 
 
 <br>
