@@ -28,6 +28,7 @@ format:
       light: flatly
     css: styles.css
     toc: true
+    page-layout: article
 
 editor: source
 

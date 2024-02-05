@@ -16,7 +16,7 @@ library(tidygraph)
 ```
 
 
-![](images/evt.jpg){width="100%"} 
+![](images/evt.jpg){width="90%"} 
 
 <br>
 
@@ -59,7 +59,7 @@ evtChart
 
 ## How we mapped our historical ecosystems
 
-![](images/bps.jpg){width="100%"} <br>
+![](images/bps.jpg){width="90%"} <br>
 
 * Blah
 * blah

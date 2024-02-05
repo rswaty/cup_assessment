@@ -3,4 +3,4 @@ title: "Wildfire Exposure"
 format: html
 ---
 
-![](images/mfri.jpg){width="100%"} <br>
+![](images/mfri.jpg){width="90%"} <br>
