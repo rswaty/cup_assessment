@@ -42,15 +42,29 @@
     "text": "Other datasets"
   },
   {
-    "objectID": "fire.html#past-fire-patterns",
-    "href": "fire.html#past-fire-patterns",
+    "objectID": "fire.html",
+    "href": "fire.html",
     "title": "Wildfire Exposure",
-    "section": "Past fire patterns",
-    "text": "Past fire patterns"
+    "section": "",
+    "text": "Dominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."
   },
   {
     "objectID": "fire.html#wildfire-exposure-risk",
     "href": "fire.html#wildfire-exposure-risk",
+    "title": "Wildfire Exposure",
+    "section": "Wildfire Exposure Risk",
+    "text": "Wildfire Exposure Risk"
+  },
+  {
+    "objectID": "fire.html#historical-fire-regimes",
+    "href": "fire.html#historical-fire-regimes",
+    "title": "Wildfire Exposure",
+    "section": "Historical Fire Regimes",
+    "text": "Historical Fire Regimes\n\n\n\n\n\nDominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."
+  },
+  {
+    "objectID": "fire.html#wildfire-exposure-risk-1",
+    "href": "fire.html#wildfire-exposure-risk-1",
     "title": "Wildfire Exposure",
     "section": "Wildfire exposure risk",
     "text": "Wildfire exposure risk"

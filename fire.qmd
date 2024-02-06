@@ -3,10 +3,32 @@ title: "Wildfire Exposure"
 format: html
 ---
 
-![](images/mfri.jpg){width="90%"} <br>
 
 
-## Past fire patterns
+```{r, echo=FALSE, out.width="85%", fig.align='left', fig.cap="Dominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."}
+
+knitr::include_graphics("images/cup_wer.jpg")
+
+```
+
+## Wildfire Exposure Risk
+
+
+
+
+
+<br>
+
+## Historical Fire Regimes
+
+```{r, echo=FALSE, out.width="85%", fig.align='left', fig.cap="Dominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."}
+
+knitr::include_graphics("images/mfri.jpg")
+
+```
+
+
+
 
 *
 *
