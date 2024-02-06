@@ -4,18 +4,34 @@ title: "Ecosystems and fire exposure of the central UP"
 ---
 
 
-![](images/aoi.jpg){width="90%"} <br>
+```{r, echo=FALSE, out.width="85%", fig.align='left'}
+
+knitr::include_graphics("images/aoi.jpg")
+
+```
+
 
 
 <br>
 
 ## Goals 
 
-* blah
-* blah
-* blah
+Using freely available [LANDFIRE](https://landfire.gov/){target=0} data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:
 
+* Quantify and compare the dominant ecosystems of the area, past and present
+* Explore how much 'late-successional' habitat would have been in the area past and present
+* Map out areas with the highest wildfire exposure risk, contextualized by historical fire regimes
 
+We used the coding language [R](https://www.youtube.com/watch?v=HTXOK78z0MA){target=0} for data processing and visualization, plus 2 programs to make maps and process spatial data, [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) and [QGIS](https://qgis.org/en/site/).  Learning more about LANDFIRE data and use of these tools was an additional goal.
+
+## The Analysis Area
+
+We aimed to delineate an analysis area that would both meet planning purposes of county officials in the central Upper Peninsula of Michigan (CUP) and be ecologically meaningful.  To create the polygon by which we completed our analysis, we:
+
+1. Selected the 6 central-most counties from the [Census Bureau County Dataset (500m)](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html).  Exported this data as a shapefile.
+2. Used the 'Select by Location' tool with the U.S. HUC 8 Watershed Boundary from [Data Basin](https://databasin.org/maps/0f726f5eed644715ba119446f0cec417/) and the 6 selected CUP counties as the 'Selecting Features'.  Data exported as a shapefile, projected to the NAD 1983 coordination system (WKID 4269). 
+
+This work was completed in ArcGIS Pro.  
 
 
 

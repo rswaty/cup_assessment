@@ -1,31 +1,45 @@
 [
   {
-    "objectID": "current.html#patterns-on-the-current-landscape",
-    "href": "current.html#patterns-on-the-current-landscape",
-    "title": "Current Vegetation",
-    "section": "Patterns on the current landscape",
-    "text": "Patterns on the current landscape\n\nLearn more about these ecosystems at _______\nDominated by blah"
+    "objectID": "late.html",
+    "href": "late.html",
+    "title": "Late Succession Habitat",
+    "section": "",
+    "text": "There is increased interest in old growth and mature forests in the United States due to the Biden Administration’s Executive Order on ‘Strengthening the Nation’s Forests, Communities, and Local Economies’. Which ordered the Department of Agriculture and the Department of the Interior to “define, identify, and complete an inventory of old-growth and mature forests on Federal lands and shall make such inventory publicly available”. Non-profit organizations and local governments in particular have taken an interest in old growth and mature forests in the Central Upper Peninsula.\nHere we explore ‘late-succession’ habitat as defined by LANDFIRE in the Biophysical Settings models and descriptions which is specifically defined for each BpS (historical ecosystem). In LANDFIRE, late-succession was not specifically designed for old-growth/mature forest identification. We use LANDFIRE data here because:\n\nThere are robust descriptions and ecological models for each ecosystem that have been peer reviewed. Learn more about the process from Blankenship et al., (2021), and Swaty et al., (2021).\nThe datasets and models cover all lands, not just agency lands for example.\nLate succession as defined in the LANDFIRE models and descriptions is ‘highly-inclusive’, and can serve to highlight areas for more detailed field examinations.\nLANDFIRE’s view of ecosystems includes natural disturbances (including Indigenous burning, wildfires, windthrow, etc.), which is in line with current ecological theory. This is particularly important in disturbance-driven ecosystems such as the Northern Pine(-Oak) Forests which would have had frequent surface fires prior to European Settlement. These fires resulted in a fair amount of ’Late-Open” successional habitat."
   },
   {
-    "objectID": "current.html#how-we-mapped-our-historical-ecosystems",
-    "href": "current.html#how-we-mapped-our-historical-ecosystems",
-    "title": "Current Vegetation",
-    "section": "How we mapped our historical ecosystems",
-    "text": "How we mapped our historical ecosystems\n \n\nBlah\nblah"
+    "objectID": "late.html#background",
+    "href": "late.html#background",
+    "title": "Late Succession Habitat",
+    "section": "",
+    "text": "There is increased interest in old growth and mature forests in the United States due to the Biden Administration’s Executive Order on ‘Strengthening the Nation’s Forests, Communities, and Local Economies’. Which ordered the Department of Agriculture and the Department of the Interior to “define, identify, and complete an inventory of old-growth and mature forests on Federal lands and shall make such inventory publicly available”. Non-profit organizations and local governments in particular have taken an interest in old growth and mature forests in the Central Upper Peninsula.\nHere we explore ‘late-succession’ habitat as defined by LANDFIRE in the Biophysical Settings models and descriptions which is specifically defined for each BpS (historical ecosystem). In LANDFIRE, late-succession was not specifically designed for old-growth/mature forest identification. We use LANDFIRE data here because:\n\nThere are robust descriptions and ecological models for each ecosystem that have been peer reviewed. Learn more about the process from Blankenship et al., (2021), and Swaty et al., (2021).\nThe datasets and models cover all lands, not just agency lands for example.\nLate succession as defined in the LANDFIRE models and descriptions is ‘highly-inclusive’, and can serve to highlight areas for more detailed field examinations.\nLANDFIRE’s view of ecosystems includes natural disturbances (including Indigenous burning, wildfires, windthrow, etc.), which is in line with current ecological theory. This is particularly important in disturbance-driven ecosystems such as the Northern Pine(-Oak) Forests which would have had frequent surface fires prior to European Settlement. These fires resulted in a fair amount of ’Late-Open” successional habitat."
   },
   {
-    "objectID": "current.html#some-notable-changes",
-    "href": "current.html#some-notable-changes",
-    "title": "Current Vegetation",
-    "section": "Some notable changes",
-    "text": "Some notable changes"
+    "objectID": "late.html#upland-late-succession-habitat",
+    "href": "late.html#upland-late-succession-habitat",
+    "title": "Late Succession Habitat",
+    "section": "Upland late succession habitat",
+    "text": "Upland late succession habitat\n\n\n\n\n\nDominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."
   },
   {
-    "objectID": "index.html#goals",
-    "href": "index.html#goals",
-    "title": "Ecosystems and fire exposure of the central UP",
-    "section": "Goals",
-    "text": "Goals\n\nblah\nblah\nblah"
+    "objectID": "late.html#riparian-late-succession-habitat",
+    "href": "late.html#riparian-late-succession-habitat",
+    "title": "Late Succession Habitat",
+    "section": "Riparian late succession habitat",
+    "text": "Riparian late succession habitat\n\n\n\n\n\nDominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."
+  },
+  {
+    "objectID": "late.html#change",
+    "href": "late.html#change",
+    "title": "Late Succession Habitat",
+    "section": "Change",
+    "text": "Change"
+  },
+  {
+    "objectID": "late.html#other-datasets",
+    "href": "late.html#other-datasets",
+    "title": "Late Succession Habitat",
+    "section": "Other datasets",
+    "text": "Other datasets"
   },
   {
     "objectID": "fire.html#past-fire-patterns",
@@ -40,5 +54,47 @@
     "title": "Wildfire Exposure",
     "section": "Wildfire exposure risk",
     "text": "Wildfire exposure risk"
+  },
+  {
+    "objectID": "current.html",
+    "href": "current.html",
+    "title": "Current Vegetation",
+    "section": "",
+    "text": "Dominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."
+  },
+  {
+    "objectID": "current.html#patterns-on-the-current-landscape",
+    "href": "current.html#patterns-on-the-current-landscape",
+    "title": "Current Vegetation",
+    "section": "Patterns on the current landscape",
+    "text": "Patterns on the current landscape\n\nAlmost all of the area is naturally vegetated, with ~ 5% classified as ‘Agricultural’ and ~2% classified as ‘Developed’.\n\nJust over 1/4 of the CUP is classified as Northern Hardwoods Forest, and 1/4 as Alkaline Conifer-Hardwood Swamp.\nIn total, ~37% is typed in various ‘riparian’ ecosystems.\n\nTo learn more about the dataset, go to https://landfire.gov/evt.php. To explore descriptions of these types, vist the Terrestrial Ecological Systems documentaton by NatureServe.\n\n\n\n\n\n\nDominant ecosystems ~2022, chart created with Existing Vegetation Type data from https://landfire.gov/evt.php."
+  },
+  {
+    "objectID": "current.html#historical-ecosystems",
+    "href": "current.html#historical-ecosystems",
+    "title": "Current Vegetation",
+    "section": "Historical ecosystems",
+    "text": "Historical ecosystems\n\n\n\n\n\nDominant ecosystems just prior to European colonization, map created with Biophysical Settings data from https://landfire.gov/bps.php.\n\n\n\n\n\nFor context (not necessarily direct comparison as datasets generated using different methods), we mapped the dominant ecosystems that would have been in the CUP just prior to European Settlement. A few notable patterns include:\n\nThere have not been substantial changes in general, i.e., the area was dominated by riparian and northern hardwood types.\nThe ‘Aspen-Birch’ type that is mapped on the current landscape may have also occurred historically, but may have been a ‘developmental stage’ within an ecosystem. LANDFIRE data does not allow for direct exploration of this type.\nWhile both ‘current’ and ‘historical’ vegetation maps were created with LANDFIRE data, there are differences in naming conventions due to evolving science and the datasets were created using very different approaches (e.g, existing vegetation mapped with satellite data, historical vegetation was modeled). Because of those differences only general trends can be assessed.\n\nAs noted above historical information presented for context. It does not necessarily equal a ‘Desired Future Condition’.\nTo learn about the dataset, visit https://landfire.gov/bps.php , and to explore specific types, including descriptions, go to https://landfirereview.org/search.php."
+  },
+  {
+    "objectID": "current.html#general-comparisons-another-way-to-explore",
+    "href": "current.html#general-comparisons-another-way-to-explore",
+    "title": "Current Vegetation",
+    "section": "General comparisons-another way to explore",
+    "text": "General comparisons-another way to explore\nAs noted above, making comparisons between the ‘current’ and ‘historical’ ecosystem datasets can be problematic. One way to ameliorate some of the data comparison challenges is to ‘group’ types and look at general patterns. For example we can group then compare all ‘riparian’ types to explore trends. It is important to interpret changes as being changes in what was mapped, which may or may not be actuality.\nIn the chord diagram below, you can hover over an outer band (e.g., near the phrase ’ Past Hardwood’ on the right) to see how much of an historical area is still mapped as that type, and how much is different. For example, of what was mapped as ‘Hardwood’ types historically, most is still that type today, with some being mapped as other types such as ‘Developed’."
+  },
+  {
+    "objectID": "index.html#goals",
+    "href": "index.html#goals",
+    "title": "Ecosystems and fire exposure of the central UP",
+    "section": "Goals",
+    "text": "Goals\nUsing freely available LANDFIRE data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:\n\nQuantify and compare the dominant ecosystems of the area, past and present\nExplore how much ‘late-successional’ habitat would have been in the area past and present\nMap out areas with the highest wildfire exposure risk, contextualized by historical fire regimes\n\nWe used the coding language R for data processing and visualization, plus 2 programs to make maps and process spatial data, ArcGIS Pro and QGIS. Learning more about LANDFIRE data and use of these tools was an additional goal."
+  },
+  {
+    "objectID": "index.html#the-analysis-area",
+    "href": "index.html#the-analysis-area",
+    "title": "Ecosystems and fire exposure of the central UP",
+    "section": "The Analysis Area",
+    "text": "The Analysis Area\nWe aimed to delineate an analysis area that would both meet planning purposes of county officials in the central Upper Peninsula of Michigan (CUP) and be ecologically meaningful. To create the polygon by which we completed our analysis, we:\n\nSelected the 6 central-most counties from the Census Bureau County Dataset (500m). Exported this data as a shapefile.\nUsed the ‘Select by Location’ tool with the U.S. HUC 8 Watershed Boundary from Data Basin and the 6 selected CUP counties as the ‘Selecting Features’. Data exported as a shapefile, projected to the NAD 1983 coordination system (WKID 4269).\n\nThis work was completed in ArcGIS Pro."
   }
 ]

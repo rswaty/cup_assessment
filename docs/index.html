@@ -120,6 +120,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
+  <li><a href="#the-analysis-area" id="toc-the-analysis-area" class="nav-link" data-scroll-target="#the-analysis-area">The Analysis Area</a></li>
   </ul>
 </nav>
     </div>
@@ -143,15 +144,34 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="images/aoi.jpg" class="img-fluid" style="width:90.0%"> <br></p>
+<div class="cell" data-layout-align="left">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/aoi.jpg" class="img-fluid figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</div>
 <p><br></p>
 <section id="goals" class="level2">
 <h2 class="anchored" data-anchor-id="goals">Goals</h2>
+<p>Using freely available <a href="https://landfire.gov/" target="0">LANDFIRE</a> data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:</p>
 <ul>
-<li>blah</li>
-<li>blah</li>
-<li>blah</li>
+<li>Quantify and compare the dominant ecosystems of the area, past and present</li>
+<li>Explore how much ‘late-successional’ habitat would have been in the area past and present</li>
+<li>Map out areas with the highest wildfire exposure risk, contextualized by historical fire regimes</li>
 </ul>
+<p>We used the coding language <a href="https://www.youtube.com/watch?v=HTXOK78z0MA" target="0">R</a> for data processing and visualization, plus 2 programs to make maps and process spatial data, <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview">ArcGIS Pro</a> and <a href="https://qgis.org/en/site/">QGIS</a>. Learning more about LANDFIRE data and use of these tools was an additional goal.</p>
+</section>
+<section id="the-analysis-area" class="level2">
+<h2 class="anchored" data-anchor-id="the-analysis-area">The Analysis Area</h2>
+<p>We aimed to delineate an analysis area that would both meet planning purposes of county officials in the central Upper Peninsula of Michigan (CUP) and be ecologically meaningful. To create the polygon by which we completed our analysis, we:</p>
+<ol type="1">
+<li>Selected the 6 central-most counties from the <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html">Census Bureau County Dataset (500m)</a>. Exported this data as a shapefile.</li>
+<li>Used the ‘Select by Location’ tool with the U.S. HUC 8 Watershed Boundary from <a href="https://databasin.org/maps/0f726f5eed644715ba119446f0cec417/">Data Basin</a> and the 6 selected CUP counties as the ‘Selecting Features’. Data exported as a shapefile, projected to the NAD 1983 coordination system (WKID 4269).</li>
+</ol>
+<p>This work was completed in ArcGIS Pro.</p>
 
 
 </section>
