@@ -4,7 +4,7 @@ format: html
 ---
 
 
-## Background
+## Background and summary
 
 There is increased interest in old growth and mature forests in the United States due to the Biden Administration’s Executive Order on [‘Strengthening the Nation’s Forests, Communities, and Local Economies’](https://www.whitehouse.gov/briefing-room/presidential-actions/2022/04/22/executive-order-on-strengthening-the-nations-forests-communities-and-local-economies/).  Which ordered the Department of Agriculture and the Department of the Interior to “define, identify, and complete an inventory of old-growth and mature forests on Federal lands and shall make such inventory publicly available”.  Non-profit organizations and local governments in particular have taken an interest in old growth and mature forests in the Central Upper Peninsula.
 
@@ -15,7 +15,7 @@ Here we explore 'late-succession' habitat as defined by LANDFIRE in the [Biophys
 * Late succession as defined in the LANDFIRE models and descriptions is 'highly-inclusive', and can serve to highlight areas for more detailed field examinations.
 * LANDFIRE's view of ecosystems includes natural disturbances (including Indigenous burning, wildfires, windthrow, etc.), which is in line with current ecological theory.  This is particularly important in disturbance-driven ecosystems such as the Northern Pine(-Oak) Forests which would have had frequent surface fires prior to European Settlement.  These fires resulted in a fair amount of 'Late-Open" successional habitat.  
 
-
+**INSERT SUMMARY HERE...DIFFERENT DATA DIFFERENT RESULTS, THOUGH CONVERGENCE ON 'MATURE', HARD TO DEFINE**
 
 ## Upland late succession habitat 
 
@@ -245,3 +245,60 @@ arrow_plot
 
 
 ## Other datasets
+
+Above we explored "late-succession" habitat, which might be considered to be the 'top of the funnel' or widest possible way to look at later stages of ecosystem development.  Below we explore some other related datasets currently available.
+
+### Mature and Old Growth Data from the US Forest Service (USFS)
+
+To support "Executive Order 14072 (also known as “Strengthening the Nation’s Forests, Communities,
+and Local Economies”)", USFS scientists have defined and mapped 'mature' and 'old-growth' forests on USFS and Bureau of Land Management lands of the US.  Their definitions are largely based on relatively reliably mapped characteristics of tree diameter and trees per acre. 
+
+We strongly recommend reading the full report, available [here](https://www.fs.usda.gov/sites/default/files/mature-and-old-growth-forests-tech.pdf), and exploring the [data viewer](https://experience.arcgis.com/experience/37cb7e33db6949c79f1f87f87968e51a/page/Simple-View/).
+
+At time of this assessment, raw data was not available for further assessment to our knowledge. 
+
+<br>
+
+
+```{r, echo=FALSE, out.width="90%", fig.align='left', fig.cap="Screenshot of the USFS Mature and Old-Growth Forest Map. "}
+
+knitr::include_graphics("images/usfs_mog_viewer.png")
+
+```
+
+<br>
+
+For the Central Upper Peninsula area, a few things stand out from their map:
+
+* There are no 'High Old-Growth' areas.
+* High 'Mature/Low Old-Growth' areas are mapped in the eastern portion of the assessment area, largely in line with Pictured Rocks National Lakeshore, and the western area of the Hiawatha National Forest.
+
+### Mature and Old-Growth mapping effort by Barnett et al. (2023)
+
+In a recently published [paper](https://www.frontiersin.org/articles/10.3389/ffgc.2022.1070372/full), Barnett et al. (2023) classified, inventoried and mapped mature and old-growth (MOG) forests for the US.  Whereas many MOG mapping attempts use some combination of tree height and/or age and/or density, the authors assessed carbon accumulation, and assumed (briefly) that old-growth occurred:
+
+> "...at the age when the density of total forest carbon stored in live and dead biomass reaches 95% of the empirically derived maximum, and the mature forest stage as occurring between the peak average carbon increment and the age of onset of old growth." 
+
+At time of this assessment, raw data was not available for further assessment to our knowledge. However from Figure 8 in the paper a few patterns jump out:
+
+* Most of the Upper Peninsula is mapped as 'young' or 'mature'.  
+* There appear to be scattered pixels (small areas) with 'Old-Growth' scattered around the area, with no discernible concentrations of old-growth. 
+
+### Mature and Old-Growth Contributions project by DellaSala et al. (2022)
+
+Authors of this [paper](https://www.frontiersin.org/articles/10.3389/ffgc.2022.979528/full) used combinations of forest canopy height, cover and above-ground living biomass to map mature and old-growth forests (among many other things).  To summarize, the authors held workshops with scientists to develop 'rulesets' or thresholds of the three aforementioned parameters for each of 28 forest types groups, then combined the necessary datasets to map mature and old-growth forests.  
+
+The authors do share their datasets at https://www.matureforests.org/data.  Here's a quick map of 'mature' forest pixels for the analysis area.
+
+<br>
+
+
+```{r, echo=FALSE, out.width="90%", fig.align='left', fig.cap="Map of mature areas as mapped by Della-Sala et al. (2022). "}
+
+knitr::include_graphics("images/della_sala_mature.jpg")
+
+```
+
+<br>
+
+This map most closely aligns with ours, identifying a substantial amount of the analysis area as 'mature'.  
