@@ -6,21 +6,23 @@ format: html
 
 ## Background and summary
 
-There is increased interest in old growth and mature forests in the United States due to the Biden Administration’s Executive Order on [‘Strengthening the Nation’s Forests, Communities, and Local Economies’](https://www.whitehouse.gov/briefing-room/presidential-actions/2022/04/22/executive-order-on-strengthening-the-nations-forests-communities-and-local-economies/).  Which ordered the Department of Agriculture and the Department of the Interior to “define, identify, and complete an inventory of old-growth and mature forests on Federal lands and shall make such inventory publicly available”.  Non-profit organizations and local governments in particular have taken an interest in old growth and mature forests in the Central Upper Peninsula.
+The Biden Administration has taken significant steps to protect old growth and mature forests in the United States. Their Executive Order [‘Strengthening the Nation’s Forests, Communities, and Local Economies’](https://www.whitehouse.gov/briefing-room/presidential-actions/2022/04/22/executive-order-on-strengthening-the-nations-forests-communities-and-local-economies/) mandates the Department of Agriculture and the Department of the Interior to inventory and publicly disclose information about old-growth and mature forests on Federal lands. This initiative has sparked interest among non-profit organizations and local governments, particularly in the Central Upper Peninsula.
 
-Here we explore 'late-succession' habitat as defined by LANDFIRE in the [Biophysical Settings models and descriptions](https://landfire.gov/bps-models.php) which is specifically defined for each BpS (historical ecosystem). In LANDFIRE, late-succession was not specifically designed for old-growth/mature forest identification.  We use LANDFIRE data here because:
+Here we explore 'late-succession' habitat as defined by LANDFIRE in the [Biophysical Settings models and descriptions](https://landfire.gov/bps-models.php) which is specifically defined for each BpS (historical ecosystem).
 
-* There are robust descriptions and ecological models for each ecosystem that have been peer reviewed.  Learn more about the process from [Blankenship et al., (2021)](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484), and [Swaty et al., (2021)](https://www.mdpi.com/2073-445X/11/1/28/pdf). 
-* The datasets and models cover all lands, not just agency lands for example.
-* Late succession as defined in the LANDFIRE models and descriptions is 'highly-inclusive', and can serve to highlight areas for more detailed field examinations.
-* LANDFIRE's view of ecosystems includes natural disturbances (including Indigenous burning, wildfires, windthrow, etc.), which is in line with current ecological theory.  This is particularly important in disturbance-driven ecosystems such as the Northern Pine(-Oak) Forests which would have had frequent surface fires prior to European Settlement.  These fires resulted in a fair amount of 'Late-Open" successional habitat.  
+*Note: late succession does not necessarily equal 'mature' or 'old growth', and is widely defined for some types.*
 
-**INSERT SUMMARY HERE...DIFFERENT DATA DIFFERENT RESULTS, THOUGH CONVERGENCE ON 'MATURE', HARD TO DEFINE**
+**What we found**
+
+1. Central Upper Peninsula has substantial 'late-succession' habitat.
+2. Most of this habitat is found in riparian and fire-adapted ecosystems.
+3. However, there has been a significant loss of late-succession habitat in the 'Northern Hardwoods Forest - Hemlock' ecosystem.
+4. It's important to note that these habitat definitions primarily consider canopy cover and height, without accounting for biodiversity metrics.
 
 ## Upland late succession habitat 
 
 
-```{r, echo=FALSE, out.width="90%", fig.align='left', fig.cap="Dominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."}
+```{r, echo=FALSE, out.width="90%", fig.align='left'}
 
 knitr::include_graphics("images/late_upland_current.png")
 
@@ -31,7 +33,7 @@ knitr::include_graphics("images/late_upland_current.png")
 ## Riparian late succession habitat
 
 
-```{r, echo=FALSE, out.width="90%", fig.align='left', fig.cap="Dominant ecosystems ~2022, map created with Existing Vegetation Type data from https://landfire.gov/evt.php."}
+```{r, echo=FALSE, out.width="90%", fig.align='left'}
 
 knitr::include_graphics("images/late_riparian_current.png")
 
@@ -253,12 +255,9 @@ Above we explored "late-succession" habitat, which might be considered to be the
 To support "Executive Order 14072 (also known as “Strengthening the Nation’s Forests, Communities,
 and Local Economies”)", USFS scientists have defined and mapped 'mature' and 'old-growth' forests on USFS and Bureau of Land Management lands of the US.  Their definitions are largely based on relatively reliably mapped characteristics of tree diameter and trees per acre. 
 
-We strongly recommend reading the full report, available [here](https://www.fs.usda.gov/sites/default/files/mature-and-old-growth-forests-tech.pdf), and exploring the [data viewer](https://experience.arcgis.com/experience/37cb7e33db6949c79f1f87f87968e51a/page/Simple-View/).
-
 At time of this assessment, raw data was not available for further assessment to our knowledge. 
 
 <br>
-
 
 ```{r, echo=FALSE, out.width="90%", fig.align='left', fig.cap="Screenshot of the USFS Mature and Old-Growth Forest Map. "}
 
@@ -273,13 +272,15 @@ For the Central Upper Peninsula area, a few things stand out from their map:
 * There are no 'High Old-Growth' areas.
 * High 'Mature/Low Old-Growth' areas are mapped in the eastern portion of the assessment area, largely in line with Pictured Rocks National Lakeshore, and the western area of the Hiawatha National Forest.
 
+We strongly recommend reading the full report, available [here](https://www.fs.usda.gov/sites/default/files/mature-and-old-growth-forests-tech.pdf), and exploring the [data viewer](https://experience.arcgis.com/experience/37cb7e33db6949c79f1f87f87968e51a/page/Simple-View/).
+
 ### Mature and Old-Growth mapping effort by Barnett et al. (2023)
 
 In a recently published [paper](https://www.frontiersin.org/articles/10.3389/ffgc.2022.1070372/full), Barnett et al. (2023) classified, inventoried and mapped mature and old-growth (MOG) forests for the US.  Whereas many MOG mapping attempts use some combination of tree height and/or age and/or density, the authors assessed carbon accumulation, and assumed (briefly) that old-growth occurred:
 
 > "...at the age when the density of total forest carbon stored in live and dead biomass reaches 95% of the empirically derived maximum, and the mature forest stage as occurring between the peak average carbon increment and the age of onset of old growth." 
 
-At time of this assessment, raw data was not available for further assessment to our knowledge. However from Figure 8 in the paper a few patterns jump out:
+At time of this assessment, raw data was not available for further assessment to our knowledge. However from [Figure 8](https://www.frontiersin.org/files/Articles/1070372/ffgc-05-1070372-HTML/image_m/ffgc-05-1070372-g008.jpg) in the paper a few patterns jump out:
 
 * Most of the Upper Peninsula is mapped as 'young' or 'mature'.  
 * There appear to be scattered pixels (small areas) with 'Old-Growth' scattered around the area, with no discernible concentrations of old-growth. 
@@ -302,3 +303,12 @@ knitr::include_graphics("images/della_sala_mature.jpg")
 <br>
 
 This map most closely aligns with ours, identifying a substantial amount of the analysis area as 'mature'.  
+
+## Notes on LANDFIRE data
+
+ In LANDFIRE, late-succession was not specifically designed for old-growth/mature forest identification.  We use LANDFIRE data here because:
+
+* There are robust descriptions and ecological models for each ecosystem that have been peer reviewed.  Learn more about the process from [Blankenship et al., (2021)](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484), and [Swaty et al., (2021)](https://www.mdpi.com/2073-445X/11/1/28/pdf). 
+* The datasets and models cover all lands, not just agency lands for example.
+* Late succession as defined in the LANDFIRE models and descriptions is 'highly-inclusive', and can serve to highlight areas for more detailed field examinations.
+* LANDFIRE's view of ecosystems includes natural disturbances (including Indigenous burning, wildfires, windthrow, etc.), which is in line with current ecological theory.  This is particularly important in disturbance-driven ecosystems such as the Northern Pine(-Oak) Forests which would have had frequent surface fires prior to European Settlement.  These fires resulted in a fair amount of 'Late-Open" successional habitat.  
