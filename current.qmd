@@ -18,7 +18,7 @@ library(tidygraph)
 
 ## Patterns on the current landscape
 
-Using LANDFIRE data, we mapped and quantified patterns of the most dominant ecosystems in the central Upper Peninsula as of 2022.  
+Using [LANDFIRE Existing Vegetation Type](https://landfire.gov/evt.php) data, we mapped and quantified patterns of the most dominant ecosystems in the central Upper Peninsula as of 2022.  
 
 **We found:**
 
@@ -72,7 +72,7 @@ evtChart
 <br>
 
 
-To learn more about the dataset, go to https://landfire.gov/evt.php.  To explore descriptions of these types, vist the Terrestrial Ecological Systems [documentaton](https://landfire.gov/documents/LANDFIRE_Ecological_Systems_Descriptions_CONUS.pdf) by [NatureServe](https://www.natureserve.org/). 
+To learn more about the dataset, go to [https://landfire.gov/evt.php](https://landfire.gov/evt.php).  To explore descriptions of these types, vist the Terrestrial Ecological Systems [documentaton](https://landfire.gov/documents/LANDFIRE_Ecological_Systems_Descriptions_CONUS.pdf) by [NatureServe](https://www.natureserve.org/). 
 
 <br>
 

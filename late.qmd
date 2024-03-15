@@ -12,7 +12,7 @@ Here we explore 'late-succession' habitat as defined by LANDFIRE in the [Biophys
 
 *Note: late succession does not necessarily equal 'mature' or 'old growth', and is widely defined for some types.*
 
-**What we found**
+**We found:**
 
 1. Central Upper Peninsula has substantial 'late-succession' habitat.
 2. Most of this habitat is found in riparian and fire-adapted ecosystems.
@@ -41,7 +41,7 @@ knitr::include_graphics("images/late_riparian_current.png")
 
 
 
-## Change
+## Change in amounts of late succession habitats, past to present
 
 ```{r wrangle late data, message=FALSE, warning=FALSE, include=FALSE}
 ## ---------------------------
