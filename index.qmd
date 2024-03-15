@@ -11,7 +11,7 @@ Using freely available [LANDFIRE](https://landfire.gov/){target=0} data, we take
 * Explore how much 'late-successional' habitat would have been in the area past and present
 * Map out areas with the highest wildfire exposure risk, contextualized by historical fire regimes
 
-We used the coding language [R](https://www.youtube.com/watch?v=HTXOK78z0MA){target=0} for data processing and visualization, plus 2 programs to make maps and process spatial data, [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) and [QGIS](https://qgis.org/en/site/).  Learning more about LANDFIRE data and use of these tools was an additional goal.
+
 
 <br>
 
@@ -27,7 +27,7 @@ knitr::include_graphics("images/aoi.jpg")
 
 
 
-## Quick note about the analysis area
+## Quick note about the analysis area, and software used
 
 We aimed to delineate an analysis area that would both meet planning purposes of county officials in the central Upper Peninsula of Michigan (CUP) and be ecologically meaningful.  To create the polygon by which we completed our analysis, we:
 

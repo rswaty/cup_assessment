@@ -130,20 +130,20 @@
     "href": "index.html",
     "title": "Ecosystems and fire exposure of the central UP",
     "section": "",
-    "text": "Using freely available LANDFIRE data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:\n\nQuantify and compare the dominant ecosystems of the area, past and present\nExplore how much ‘late-successional’ habitat would have been in the area past and present\nMap out areas with the highest wildfire exposure risk, contextualized by historical fire regimes\n\nWe used the coding language R for data processing and visualization, plus 2 programs to make maps and process spatial data, ArcGIS Pro and QGIS. Learning more about LANDFIRE data and use of these tools was an additional goal."
+    "text": "Using freely available LANDFIRE data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:\n\nQuantify and compare the dominant ecosystems of the area, past and present\nExplore how much ‘late-successional’ habitat would have been in the area past and present\nMap out areas with the highest wildfire exposure risk, contextualized by historical fire regimes"
   },
   {
     "objectID": "index.html#goals",
     "href": "index.html#goals",
     "title": "Ecosystems and fire exposure of the central UP",
     "section": "",
-    "text": "Using freely available LANDFIRE data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:\n\nQuantify and compare the dominant ecosystems of the area, past and present\nExplore how much ‘late-successional’ habitat would have been in the area past and present\nMap out areas with the highest wildfire exposure risk, contextualized by historical fire regimes\n\nWe used the coding language R for data processing and visualization, plus 2 programs to make maps and process spatial data, ArcGIS Pro and QGIS. Learning more about LANDFIRE data and use of these tools was an additional goal."
+    "text": "Using freely available LANDFIRE data, we take a look at the central Upper Peninsula of Michigan, plus some adjacent areas in Wisconsin to:\n\nQuantify and compare the dominant ecosystems of the area, past and present\nExplore how much ‘late-successional’ habitat would have been in the area past and present\nMap out areas with the highest wildfire exposure risk, contextualized by historical fire regimes"
   },
   {
-    "objectID": "index.html#quick-note-about-the-analysis-area",
-    "href": "index.html#quick-note-about-the-analysis-area",
+    "objectID": "index.html#quick-note-about-the-analysis-area-and-software-used",
+    "href": "index.html#quick-note-about-the-analysis-area-and-software-used",
     "title": "Ecosystems and fire exposure of the central UP",
-    "section": "Quick note about the analysis area",
-    "text": "Quick note about the analysis area\nWe aimed to delineate an analysis area that would both meet planning purposes of county officials in the central Upper Peninsula of Michigan (CUP) and be ecologically meaningful. To create the polygon by which we completed our analysis, we:\n\nSelected the 6 central-most counties from the Census Bureau County Dataset (500m). Exported this data as a shapefile.\nUsed the ‘Select by Location’ tool with the U.S. HUC 8 Watershed Boundary from Data Basin and the 6 selected CUP counties as the ‘Selecting Features’. Data exported as a shapefile, projected to the NAD 1983 coordination system (WKID 4269).\n\nThis work was completed in ArcGIS Pro. R, R-Studio and QGIS were also used in the analyses. All code and datasets can be obtained by contacting Randy Swaty."
+    "section": "Quick note about the analysis area, and software used",
+    "text": "Quick note about the analysis area, and software used\nWe aimed to delineate an analysis area that would both meet planning purposes of county officials in the central Upper Peninsula of Michigan (CUP) and be ecologically meaningful. To create the polygon by which we completed our analysis, we:\n\nSelected the 6 central-most counties from the Census Bureau County Dataset (500m). Exported this data as a shapefile.\nUsed the ‘Select by Location’ tool with the U.S. HUC 8 Watershed Boundary from Data Basin and the 6 selected CUP counties as the ‘Selecting Features’. Data exported as a shapefile, projected to the NAD 1983 coordination system (WKID 4269).\n\nThis work was completed in ArcGIS Pro. R, R-Studio and QGIS were also used in the analyses. All code and datasets can be obtained by contacting Randy Swaty."
   }
 ]
