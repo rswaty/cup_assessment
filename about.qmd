@@ -15,7 +15,7 @@ We'd like to first acknowledge Robert Zeil (aka 'Zeke') who introduced us to, an
 
 We'd like to also thank Sven Gonstead and Emily Leach of Marquette County for the inspiration, opportunity and for meeting with us!
 
-And importantly, Dr. Matt Van Grisven of NMU for moral, technical and space support!
+And importantly, Dr. Matt Van Grinsven of NMU for moral, technical and space support!
 
 ## Developers, in alphabetical order
 
